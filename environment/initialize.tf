@@ -2,7 +2,7 @@
 
 module "AzureSoftDelete"
 {
-  source   = "./modules"
+  source   = "../Modules/softdelete/"
   AzureLocation = "${var.AzureLocation}"
   StorageAccountName = "${var.StorageAccountName}"
   ResourceGroupName = "${var.ResourceGroupName}"
